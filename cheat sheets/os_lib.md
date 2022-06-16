@@ -8,10 +8,10 @@ Else, it returns False. The first argument is the path; the second is the mode.
 
 The mode can take one of four values:
 
-os.F_OK  — Found
-os.R_OK  — Readable
-os.W_OK  — Writable
-os.X_OK  — Executable
+- os.F_OK  — Found
+- os.R_OK  — Readable
+- os.W_OK  — Writable
+- os.X_OK  — Executable
 
 ```python
 >>> os.chdir(path)
