@@ -26,25 +26,25 @@ This Python os Module alters the mode of the path to the passed numeric mode.
 
 The mode may be on of the following values(or a bitwise OR combination of them):
 
-stat.S_ISUID − Set user ID on execution
-stat.S_ISGID − Set group ID on execution
-stat.S_ENFMT – Enforced record locking
-stat.S_ISVTX – After execution, save text image
-stat.S_IREAD − Read by owner
-stat.S_IWRITE − Write by owner
-stat.S_IEXEC − Execute by owner
-stat.S_IRWXU − Read, write, and execute by owner
-stat.S_IRUSR − Read by owner
-stat.S_IWUSR − Write by owner
-stat.S_IXUSR − Execute by owner
-stat.S_IRWXG − Read, write, and execute by group
-stat.S_IRGRP − Read by group
-stat.S_IWGRP − Write by group
-stat.S_IXGRP − Execute by group
-stat.S_IRWXO − Read, write, and execute by others
-stat.S_IROTH − Read by others
-stat.S_IWOTH − Write by others
-stat.S_IXOTH − Execute by others
+-stat.S_ISUID − Set user ID on execution
+-stat.S_ISGID − Set group ID on execution
+-stat.S_ENFMT – Enforced record locking
+-stat.S_ISVTX – After execution, save text image
+-stat.S_IREAD − Read by owner
+-stat.S_IWRITE − Write by owner
+-stat.S_IEXEC − Execute by owner
+-stat.S_IRWXU − Read, write, and execute by owner
+-stat.S_IRUSR − Read by owner
+-stat.S_IWUSR − Write by owner
+-stat.S_IXUSR − Execute by owner
+-stat.S_IRWXG − Read, write, and execute by group
+-stat.S_IRGRP − Read by group
+-stat.S_IWGRP − Write by group
+-stat.S_IXGRP − Execute by group
+-stat.S_IRWXO − Read, write, and execute by others
+-stat.S_IROTH − Read by others
+-stat.S_IWOTH − Write by others
+-stat.S_IXOTH − Execute by others
 
 ```python
 >>> import stat
@@ -96,20 +96,20 @@ lstat is an alias for fstat() on those platforms that do not support symbolic li
 
 It returns the following structure:
 
-st_dev − ID of device containing file
-st_ino − inode number
-st_mode – protection
-st_nlink − number of hard links
-st_uid − user ID of owner
-st_gid − group ID of owner
-st_rdev − device ID (if special file)
-st_size − total size, in bytes
-st_blksize − blocksize for filesystem I/O
-st_blocks − number of blocks allocated
-st_atime − time of last access
-st_mtime − time of last modification
-st_ctime − time of last status change
-Sample usage:
+-st_dev − ID of device containing file
+-st_ino − inode number
+-st_mode – protection
+-st_nlink − number of hard links
+-st_uid − user ID of owner
+-st_gid − group ID of owner
+-st_rdev − device ID (if special file)
+-st_size − total size, in bytes
+-st_blksize − blocksize for filesystem I/O
+-st_blocks − number of blocks allocated
+-st_atime − time of last access
+-st_mtime − time of last modification
+-st_ctime − time of last status change
+-Sample usage:
 
 ```python
 >>> path = "/var/www/html/Today.txt"
